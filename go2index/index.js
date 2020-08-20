@@ -65,27 +65,27 @@ var authConfig = {
 };
 
 var themeOptions = {
-  cdn: "https://cdn.jsdelivr.net/gh/Aicirou/goindex-theme-acrou",
+  cdn: "https://cdn.jsdelivr.net/gh/etnperlong/goindex-theme-acrou",
   // 主题版本号
-  version: "2.0.5",
+  version: "2.0.8",
   //可选默认系统语言:en/zh-chs/zh-cht
-  languages: "en",
+  languages: "zh-chs",
   render: {
     /**
      * 是否渲染HEAD.md文件
      * Render HEAD.md file
      */
-    head_md: false,
+    head_md: true,
     /**
      * 是否渲染README.md文件
      * Render README.md file
      */
-    readme_md: false,
+    readme_md: true,
     /**
      * 是否渲染文件/文件夹描述
      * Render file/folder description or not
      */
-    desc: false,
+    desc: true,
   },
   /**
    * 播放器选项

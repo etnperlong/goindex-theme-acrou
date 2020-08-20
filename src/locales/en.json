@@ -8,7 +8,7 @@
   },
   "copy": {
     "text": "Copy",
-    "success": "Copy successful",
+    "success": "Copy successfully",
     "error": "Copy failed"
   },
   "list": {
@@ -16,7 +16,7 @@
       "gridMode": "Grid view",
       "listMode": "List view"
     },
-    "auth": "Directory encryption, please enter password",
+    "auth": "Directory has been encrpyted, please enter password",
     "title": {
       "file": "File",
       "moditime": "Modified Time",
@@ -33,7 +33,7 @@
     "item": "item"
   },
   "search": {
-    "placeholder": "Search resources..."
+    "placeholder": "Search ..."
   },
   "page": {
     "video": {
@@ -48,7 +48,7 @@
   "setting": {
     "clear": {
       "text": "Clean cache",
-      "success": "Cache cleanup successful"
+      "success": "Cache cleanup successfully"
     }
   },
   "checkVersion": {
