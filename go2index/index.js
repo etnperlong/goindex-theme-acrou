@@ -98,6 +98,13 @@ var themeOptions = {
      */
     api: "https://api.jsonpop.cn/demo/blplyaer/?url=",
   },
+  video: {
+    api: "",
+    autoplay: true,
+  },
+  audio: {
+    autoplay: false,
+  },
 };
 // =======Options END=======
 
