@@ -62,6 +62,7 @@
           </div>
           <header-locales />
           <header-setting />
+          <header-info />
           <a
             class="navbar-item is-hidden-desktop"
             @click.stop="$refs.viewMode.toggleMode"
@@ -77,11 +78,13 @@
 <script>
 import headerLocales from "@/layout/header-aside/components/header-locales";
 import headerSetting from "@/layout/header-aside/components/header-setting";
+import headerInfo from "@/layout/header-aside/components/header-info";
 import ViewMode from "@/layout/viewmode";
 export default {
   components: {
     headerLocales,
     headerSetting,
+    headerInfo,
     ViewMode,
   },
   created() {

@@ -46,6 +46,7 @@
     }
   },
   "setting": {
+    "title": "Settings",
     "clear": {
       "text": "Clean cache",
       "success": "Cache cleanup successfully"
@@ -57,5 +58,10 @@
   "error": {
     "shortcut_not_down": "Shortcut can't open/download",
     "401": "Unauthorized, please login"
+  },
+  "about": {
+    "title": "About",
+    "github": "Github",
+    "telegram": "Contact me"
   }
 }

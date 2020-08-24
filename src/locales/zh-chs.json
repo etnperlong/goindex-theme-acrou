@@ -46,6 +46,7 @@
     }
   },
   "setting": {
+    "title": "设置",
     "clear": {
       "text": "清理缓存",
       "success": "缓存清理成功"
@@ -57,5 +58,10 @@
   "error": {
     "shortcut_not_down": "快捷方式无法打开/下载",
     "401": "未授权，请登录"
+  },
+  "about": {
+    "title": "关于",
+    "github": "项目地址",
+    "telegram": "联系我"
   }
 }

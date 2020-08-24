@@ -1,6 +1,6 @@
 <template>
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link is-arrowless" title="Setting">
+    <a class="navbar-link is-arrowless" title="$t('setting.title')">
       <i class="fa fa-cog" aria-hidden="true"></i>
     </a>
     <div class="navbar-dropdown is-left">
