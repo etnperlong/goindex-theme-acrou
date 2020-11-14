@@ -67,7 +67,7 @@ var authConfig = {
 var themeOptions = {
   cdn: "https://cdn.jsdelivr.net/gh/etnperlong/goindex-theme-acrou",
   // 主题版本号
-  version: "2.0.8",
+  version: "2.0.8n",
   //可选默认系统语言:en/zh-chs/zh-cht
   languages: "zh-chs",
   render: {
@@ -103,7 +103,10 @@ var themeOptions = {
    * 音频播放器选项
    * Audio player options
    */
-  audio: {},
+  audio: {
+    api: "",
+    autoplay: true,
+  },
 };
 // =======Options END=======
 
