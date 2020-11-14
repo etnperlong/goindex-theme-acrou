@@ -854,7 +854,7 @@ class googleDrive {
   }
 
   async _findDirId(parent, name) {
-    name = decodeURIComponent(name).replace(/\'/g, "\\'");
+    name = decodeURIComponent(name);
 
     // console.log("_findDirId", parent, name);
 
@@ -864,7 +864,7 @@ class googleDrive {
 
     let url = "https://www.googleapis.com/drive/v3/files";
     let params = { includeItemsFromAllDrives: true, supportsAllDrives: true };
-    params.q = `'${parent}' in parents and mimeType = 'application/vnd.google-apps.folder' and name = '${name}'  and trashed = false`;
+    params.q = `"${parent}" in parents and mimeType = 'application/vnd.google-apps.folder' and name = "${name}"  and trashed = false`;
     params.fields = "nextPageToken, files(id, name, mimeType)";
     url += "?" + this.enQuery(params);
     let requestOption = await this.requestOption();

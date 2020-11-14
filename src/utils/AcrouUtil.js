@@ -22,7 +22,6 @@ export const encodePath = (path) => {
     return p2
       .replace()
       .replace(/\//g, "%2F")
-      .replace(/'/g, "%27")
       .replace(/#/g, "%23");
   });
   //return path.replace().replace("/", "%2F").replace("#", "%23")
